@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //reverse a string
+        let str='hello';
+let even='';
+for(i=str.length-1;i>=0;i--){
+    even+=str[i];
+}
+console.log(even);
+
+
+//even sum and odd sum
+ arr = [23, 54, 67, 64, 46, 95, 98];
+
+let evenSum = 0;
+let oddSum = 0;
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] % 2 === 0) {
+    evenSum += arr[i];  
+  } else {
+    oddSum += arr[i];   
+  }
+}
+
+console.log("Sum of even numbers:", evenSum);
+console.log("Sum of odd numbers:", oddSum);
+
+
+
+
+
+//object and key values
+let obj={
+  name: "varshini",
+  age: 22
+}
+for(i of Object.entries(obj)){
+  console.log(i)
+}
+    </script>
+</body>
+</html>
